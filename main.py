@@ -33,10 +33,10 @@ def commonElementFinder(list1, list2):
 
 # ################################################# end_funcs/start_main
 
-msg = "randomly generate two lists and write a program that returns a list that contains only the elements that are" \
-      "common between the lists (without duplicates)."
+msg = "This application randomly generate two lists and write a program that returns a list that contains only " \
+      "the elements that are common between the lists (without duplicates)."
 
-print("This application " + msg)
+print(msg)
 
 # generate a random integer between 1 and 100 to determine list sizes
 listSize_a = random.randint(1, 25)
